@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-x### YOLO-NAS
-=======
 ## YOLO-NAS
->>>>>>> 48d7ac7a63ca1328fc87212c23a2c1aaada325ad
 
 YOLO-NAS is a new State of the Art, foundation model for object detection inspired by YOLOv6 and YOLOv8.
 
