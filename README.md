@@ -1,3 +1,4 @@
+### YOLO-NAS
 
 YOLO-NAS is a new State of the Art, foundation model for object detection inspired by YOLOv6 and YOLOv8.
 
@@ -17,6 +18,9 @@ Deci's open-source, PyTorch-based computer vision library, SuperGradients, makes
 
 🌟 Head over to GitHub, star SuperGradients, and explore the starter notebook to see YOLO-NAS in action!
 
-Technical blog: https://deci.ai/blog/YOLO-NAS-object-detection-foundation-model
-GitHub repo: https://github.com/Deci-AI/super-gradients/blob/master/YOLONAS.md
-Starter Notebook: https://colab.research.google.com/drive/1q0RmeVRzLwRXW-h9dPFSOchwJkThUy6d
+
+### Links
+
+**Technical blog**: https://deci.ai/blog/YOLO-NAS-object-detection-foundation-model <br />
+**GitHub repo**: https://github.com/Deci-AI/super-gradients/blob/master/YOLONAS.md <br />
+**Starter Notebook**: https://colab.research.google.com/drive/1q0RmeVRzLwRXW-h9dPFSOchwJkThUy6d
