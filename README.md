@@ -18,6 +18,7 @@ Deci's open-source, PyTorch-based computer vision library, SuperGradients, makes
 
 🌟 Head over to GitHub, star SuperGradients, and explore the starter notebook to see YOLO-NAS in action!
 
+![http://url/to/img.png](https://github.com/TunaUlusoy/YOLO-NAS/blob/main/readme.png)
 
 ## Links
 
