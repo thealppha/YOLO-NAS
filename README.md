@@ -1,4 +1,4 @@
-### YOLO-NAS
+x### YOLO-NAS
 
 YOLO-NAS is a new State of the Art, foundation model for object detection inspired by YOLOv6 and YOLOv8.
 
