@@ -1,2 +1,3 @@
 detection
-readme.png
+
+printf '*.jpg\n*.jpeg\n*.png\n*.gif\n'
