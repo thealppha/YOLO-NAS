@@ -29,13 +29,14 @@ if video_flag:
 
         for video_id in video_id_list:
                 video_url = f'https://www.youtube.com/watch?v={video_id}'  
-                command = f"python3 -m youtube_dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4' {video_url} -o 'videos/%(title)s.%(ext)s'"
-                os.system(command)
+                if not os.path.exists('videos/%(title)s.%(ext)s'):
+                        command = f"python3 -m youtube_dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4' {video_url} -o 'videos/%(title)s.%(ext)s'"
+                        os.system(command)
         
-        videos = [file for file in os.listdir() if file.endswith("mp4")]
-        
+        videos = [file for file in os.listdir("videos/") if file.endswith("mp4")]
+
         for video in videos:
-                input_video_path = video
-                output_video_path = f"detections/{video}.mp4"
+                input_video_path = f"videos/{video}"
+                output_video_path = f"detections/{video}"
 
                 yolo_nas_l.to(device).predict(input_video_path).save(output_video_path)
