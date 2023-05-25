@@ -25,7 +25,8 @@ conda create -n yolonas python=3.8
 conda activate yolonas
 
 # Install packages and dependencies
-./install.sh
+chmod +x install.sh
+bash ./install.sh
 
 # Run inference.py
 python3 inference.py
