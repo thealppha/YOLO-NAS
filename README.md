@@ -32,7 +32,7 @@ bash ./install.sh
 python3 inference.py
 ```
 
-<img src="https://github.com/TunaUlusoy/YOLO-NAS/blob/main/readme.png" alt= “http://url/to/img.png” width="500" height="500">
+<img src="https://github.com/TunaUlusoy/YOLO-NAS/blob/master/readme.png" alt= “http://url/to/img.png” width="500" height="500">
 
 ## Links
 
