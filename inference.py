@@ -31,7 +31,7 @@ class Inference():
         def get_video(self):
                 video_url = f'https://www.youtube.com/watch?v={self.video_id}'  
 
-                command = f"python3 -m youtube_dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4' {video_url}"
+                command = f"python -m youtube_dl --format mp4 {video_url}"
                 os.system(command)
 
                 video_name = [file for file in os.listdir() if file.endswith("mp4")][0]
