@@ -1,0 +1,7 @@
+
+super-gradients==3.1.0
+imutils
+roboflow
+torchinfo
+pytube
+youtube-dl @ git+https://github.com/ytdl-org/youtube-dl.git
