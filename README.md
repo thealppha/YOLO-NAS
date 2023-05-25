@@ -20,6 +20,10 @@ Deci's open-source, PyTorch-based computer vision library, SuperGradients, makes
 
 ## Installation
 ```ruby
+# Clone repo
+git clone "https://github.com/TunaUlusoy/YOLO-NAS.git"
+cd YOLO-NAS
+
 # Create environmet 
 conda create -n yolonas python=3.8
 conda activate yolonas
@@ -28,10 +32,10 @@ conda activate yolonas
 pip install -r requirements.txt
 
 # Run inference.py
-python3 inference.py
+python inference.py
 ```
 
-<img src="https://github.com/TunaUlusoy/YOLO-NAS/blob/master/readme.png" alt= “http://url/to/img.png” width="500" height="500">
+<img src="https://github.com/TunaUlusoy/YOLO-NAS/blob/main/readme.png" alt= “http://url/to/img.png” width="500" height="500">
 
 ## Links
 
