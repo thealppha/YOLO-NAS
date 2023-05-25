@@ -21,7 +21,7 @@ Deci's open-source, PyTorch-based computer vision library, SuperGradients, makes
 ## Installation
 ```ruby
 # Create environmet 
-conda create -n yolonas
+conda create -n yolonas python=3.8
 conda activate yolonas
 
 # Install packages and dependencies
