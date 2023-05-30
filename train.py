@@ -26,12 +26,12 @@ class Train():
                     )
         return train_data
     
-    def get_test_data(self):
-        test_data = coco_detection_yolo_format_val(
+    def get_val_data(self):
+        val_data = coco_detection_yolo_format_train(
                         dataset_params={
                             'data_dir': dataset_params['data_dir'],
-                            'images_dir': dataset_params['test_images_dir'],
-                            'labels_dir': dataset_params['test_labels_dir'],
+                            'images_dir': dataset_params['val_images_dir'],
+                            'labels_dir': dataset_params['val_labels_dir'],
                             'classes': dataset_params['classes']
                         },
                         dataloader_params={
@@ -39,7 +39,7 @@ class Train():
                             'num_workers':train_params["num_workers"]
                         }
                     )
-        return test_data
+        return val_data
 
     def get_model(self):
         model = models.get(self.model, 
@@ -59,7 +59,7 @@ class Train():
             experiment_name = f"yolonas_train_{train_number:02}"
 
         train_data = self.get_train_data()
-        test_data = self.get_test_data()
+        val_data = self.get_val_data()
 
         model = self.get_model()
 
@@ -68,5 +68,5 @@ class Train():
         trainer.train(model=model, 
                       training_params=train_params, 
                       train_loader=train_data, 
-                      valid_loader=test_data
+                      valid_loader=val_data
                       )
