@@ -25,14 +25,8 @@ git clone "https://github.com/TunaUlusoy/YOLO-NAS.git"
 cd YOLO-NAS
 
 # Create environmet 
-conda create -n yolonas python=3.8
+conda env create -f environment.yml
 conda activate yolonas
-
-# Install packages and dependencies
-pip install -r requirements.txt
-
-# Run inference.py
-python inference.py
 ```
 
 <img src="https://github.com/TunaUlusoy/YOLO-NAS/blob/main/readme.png" alt= “http://url/to/img.png” width="500" height="500">
