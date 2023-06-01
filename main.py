@@ -4,11 +4,14 @@ from inference import Inference
 from train import Train
 from evaluation import Evaluation
 
+# The path to save the model
+os.environ["TORCH_HOME"] = "models/"
+
 # Select init model
 model = "yolo_nas_l"
 
 # Train, Evaluation, Inference
-operation = "Inference" 
+operation = "Train" 
 
 # Youtube video id
 video_id="DSxNv_nKW4Y" 
