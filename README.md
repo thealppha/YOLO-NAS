@@ -29,7 +29,7 @@ conda env create -f environment.yml
 conda activate yolonas
 ```
 
-<img src="https://github.com/TunaUlusoy/YOLO-NAS/blob/main/readme.png" alt= “http://url/to/img.png” width="500" height="500">
+<img src="https://github.com/TunaUlusoy/YOLO-NAS/blob/dev/readme.png" alt= “http://url/to/img.png” width="500" height="500">
 
 ## Links
 
