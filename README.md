@@ -25,7 +25,7 @@ git clone "https://github.com/TunaUlusoy/YOLO-NAS.git"
 cd YOLO-NAS
 
 # Create environmet 
-conda env create -f environment.yml
+conda env create -f yolonas.yml
 conda activate yolonas
 ```
 
